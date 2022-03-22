@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+include('cookie.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +21,8 @@
     </header>
 
     <nav class="navegacao">
-        
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href="logout.php" class="vermelho">Sair</a>
     </nav>
 
     <main class="principal">

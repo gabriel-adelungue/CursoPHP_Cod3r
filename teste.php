@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
 $email = $_POST['email'];
@@ -78,4 +78,4 @@ if($_POST['email']) {
         COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
-</html> 
+</html>
