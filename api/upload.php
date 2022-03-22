@@ -4,8 +4,8 @@
 
 print_r($_FILES);
 
-if ($_FILES && $_FILES['arquivos']) {
-    $pastaUpload = 'C:\Users\gabri\Desktop';
+if ($_FILES && $_FILES['arquivo']) {
+    $pastaUpload = 'C:\Users\gabri\Documents\teste\\';
     $nomeArquivo = $_FILES['arquivo']['name'];
     $arquivo = $pastaUpload . $nomeArquivo;
     $tmp = $_FILES['arquivo']['tmp_name'];
