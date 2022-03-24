@@ -49,7 +49,7 @@ $conexao->close;
                     ?>
                 </td>
                 <td>
-                    <a href="/exercicio.php?dir=db&file=excluir_2&excluir=<?= $registro['id'] ?>" 
+                    <a href="exercicio.php?dir=db&file=excluir_2&excluir=<?= $registro['id'] ?>" 
                         class="btn btn-danger">
                         Excluir
                     </a>
