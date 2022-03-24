@@ -1,5 +1,59 @@
 <nav class="modulos">
 
+<div class="modulo laranja">
+        <h3>15. BD</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=db&file=criar_banco">
+                    Criar Banco
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=criar_tabela">
+                    Criar Tabela
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=inserir_1">
+                    Inserir Registro #01
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=consultar">
+                    Consultar Registros
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=excluir_1">
+                    Excluir Registros #01
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=excluir_2">
+                    Excluir Registros #02
+                </a>
+            </li>
+
+
+        </ul>
+</div>            
+
+<div class="modulo roxo">
+        <h3>14. Formulário</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=formulario&file=formulario">
+                    Formulário
+                </a>
+            </li>
+        </ul>
+</div>            
+
 <div class="modulo azul">
         <h3>13. API</h3>
         <ul>
@@ -30,6 +84,18 @@
             <li>
                 <a href="exercicio.php?dir=api&file=upload">
                     Upload
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=api&file=download">
+                    Download
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=api&file=imagens">
+                    Imagens
                 </a>
             </li>
 
@@ -153,7 +219,7 @@
 </div>        
 
 <div class="modulo azul-escuro">
-        <h3>8. Paradigma O.O.</h3>
+        <h3>8.Paradigma O.O.</h3>
         <ul>
             <li>
                 <a href="exercicio.php?dir=classes_objetos&file=classe">
