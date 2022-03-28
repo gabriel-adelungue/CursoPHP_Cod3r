@@ -51,6 +51,29 @@
                 </a>
             </li>
 
+            <li>
+                <a href="exercicio.php?dir=db&file=inserir_pdo">
+                    PDO: Inserir
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=consultar_pdo">
+                    PDO: Consultar
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=excluir_pdo">
+                    PDO: Excluir
+                </a>
+            </li>
+
+            <li>
+                <a href="exercicio.php?dir=db&file=alterar_pdo">
+                    PDO: Alterar
+                </a>
+            </li>
 
         </ul>
 </div>            
