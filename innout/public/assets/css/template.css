@@ -91,6 +91,10 @@ header.header .dropdown-content a:hover{
     background-color: rgba(0, 0, 0, .05);
 }
 
+header.header .dropdown:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+
 aside.sidebar {
     grid-area: sidebar;
 }
