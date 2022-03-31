@@ -57,7 +57,6 @@ header.header .dropdown {
 header.header .dropdown-button {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100%;
     font-size: 1.1rem;
     color: white;
@@ -74,7 +73,7 @@ header.header .dropdown-content {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
 }
 
-header.header .dropdown-button:hover .dropdown-content {
+header.header .dropdown:hover .dropdown-content {
     display: block;
 }
 
