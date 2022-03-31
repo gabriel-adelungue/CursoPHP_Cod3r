@@ -1,6 +1,6 @@
 <?php
 
-class ValidationException extends Exception {
+class ValidationException extends AppException {
 
     private $errors = [];
 
@@ -16,7 +16,7 @@ class ValidationException extends Exception {
         return $this->errors;
     }
 
-    public function get(){
-        return $this->errors['$att'];
+    public function get($att){
+        return $this->errors[$att];
     }
 }
