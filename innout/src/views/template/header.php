@@ -38,7 +38,7 @@
                     <ul class="nav-list">
                         <li class="nav-item">
                             <a href="logout.php">
-                                <i class="iconfont-layout mr-2"></i>
+                                <i class="icofont-logout mr-2"></i>
                                 Sair
                             </a>
                         </li>
