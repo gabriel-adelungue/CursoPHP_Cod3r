@@ -9,7 +9,7 @@ function addSuccessMsg($msg){
 
 function addErrorMsg($msg){
     $_SESSION['message'] = [
-        'type' => 'Error',
+        'type' => 'error',
         'message' => $msg
     ];
 }

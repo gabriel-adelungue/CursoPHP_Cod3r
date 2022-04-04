@@ -25,9 +25,9 @@ if($message['type'] === 'error') {
 }
 ?>
 
-<?php if($message): ?>   
+<?php if($message): ?>
     <div role="alert"
-    class="my-3 alert alert-<?= $alertType ?>">    
-    <?= $message['message'] ?>
+        class="my-3 alert alert-<?= $alertType ?>">
+        <?= $message['message'] ?>
     </div>
 <?php endif ?>
