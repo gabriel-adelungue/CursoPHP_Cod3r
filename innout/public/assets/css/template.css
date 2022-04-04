@@ -52,11 +52,13 @@ header.header .spacer {
 
 header.header .dropdown {
     position: relative;
+    height: 100%;
 }
 
 header.header .dropdown-button {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
     font-size: 1.1rem;
     color: white;
@@ -77,13 +79,13 @@ header.header .dropdown:hover .dropdown-content {
     display: block;
 }
 
-header.header .dropdown-content ul{
+header.header .dropdown-content ul {
     list-style: none;
     padding-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-header.header .dropdown-content a{
+header.header .dropdown-content a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -92,12 +94,18 @@ header.header .dropdown-content a{
     font-size: 1.1rem;
 }
 
-header.header .dropdown-content a:hover{
+header.header .dropdown-content a:hover {
     background-color: rgba(0, 0, 0, .05);
 }
 
-header.header .dropdown:hover{
+header.header .dropdown:hover {
     background-color: rgba(0, 0, 0, .1);
+}
+
+header.header .avatar {
+    height: 75%;
+    border-radius: 50%;
+    margin-left: 10px;
 }
 
 aside.sidebar {
@@ -105,22 +113,22 @@ aside.sidebar {
     flex-direction: column;
     align-items: center;
     grid-area: sidebar;
-    box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, .4);
-    background-color: white;
+    box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
 }
 
-aside.sidebar .menu{
+aside.sidebar .menu {
     width: 100%;
     flex-grow: 1;
 }
 
-aside.sidebar .menu ul.nav-list{
+aside.sidebar .menu ul.nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-aside.sidebar .menu li.nav-item{
+aside.sidebar .menu li.nav-item {
     margin: 0;
     padding: 10px 10px 10px 25px;
 }
@@ -128,7 +136,6 @@ aside.sidebar .menu li.nav-item{
 aside.sidebar .menu li.nav-item:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 aside.sidebar .menu li.nav-item a {
     font-size: 1.2rem;
     color: #555;
@@ -163,7 +170,7 @@ aside.sidebar .sidebar-widget .info {
 
 .division {
     widows: 80%;
-    border: solid 1px #EEEE;
+    border: solid 1px #EEE;
 }
 
 aside.sidebar .info .main {
@@ -186,21 +193,21 @@ main.content .content-title {
     border-bottom: 1px solid #CCC;
 }
 
-main.content .content-title .icon{
+main.content .content-title .icon {
     font-size: 3rem;
 }
 
-main.content .content-title h1{
+main.content .content-title h1 {
     color: #444;
     font-size: 1.8rem;
     font-weight: 300;
     margin: 0;
 }
 
-main.content .content-title h2{
+main.content .content-title h2 {
     color: #888;
-    font-weight: 300;
     font-size: 1.2rem;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -212,7 +219,7 @@ footer.footer {
     font-size: 1.2rem;
     grid-area: footer;
     background-color: #222;
-    color: #fff;
+    color: #FFF;
 }
 
 .record {
