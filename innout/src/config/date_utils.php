@@ -21,21 +21,21 @@ function getNextDay($date) {
     return $inputDate;
 }
 
-function sumIntervals($inteval1, $interval2){
+function sumIntervals($interval1, $interval2) {
     $date = new DateTime('00:00:00');
-    $date->add($inteval1);
+    $date->add($interval1);
     $date->add($interval2);
     return (new DateTime('00:00:00'))->diff($date);
 }
 
-function subtractIntervals($inteval1, $interval2){
+function subtractIntervals($interval1, $interval2) {
     $date = new DateTime('00:00:00');
-    $date->add($inteval1);
+    $date->add($interval1);
     $date->sub($interval2);
     return (new DateTime('00:00:00'))->diff($date);
 }
 
-function getDateFromInterval($interval){
+function getDateFromInterval($interval) {
     return new DateTimeImmutable($interval->format('%H:%i:%s'));
 }
 
