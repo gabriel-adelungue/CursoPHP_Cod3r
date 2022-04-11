@@ -1,5 +1,6 @@
 <main class="content">
     <?php
+    header("Content-Type: text/html; charset=utf-8");
 
        renderTitle(
            'Relatório Mensal',
@@ -10,15 +11,24 @@
     ?>
 
     <div>
-
        <form class="mb-4" action="#" method="post">
-            <select name="period" class="form-control" placeholder="Selecione o período...">
-                <?php
-                    foreach($periods as $key => $month) {
-                        echo "<option value='{$key}'>{$month}</option>";
-                    }
-                ?>
-            </select>
+            <div class="input-group">
+                <select name="user" class="form-control" placeholder="Selecione o usuário...">
+                    <?php
+                        foreach($users as $user) {
+                            echo "<option value='{$user->id}'>{$user->name}</option>";
+                        }
+                    ?>
+                </select>
+                
+                <select name="period" class="form-control" placeholder="Selecione o período...">
+                    <?php
+                        foreach($periods as $key => $month) {
+                            echo "<option value='{$key}'>{$month}</option>";
+                        }
+                    ?>
+                </select>
+            </div>
        </form>
 
         <table class="table table-bordered table-striped table-hover">
