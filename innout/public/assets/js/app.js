@@ -1,13 +1,10 @@
-
 (function () {
     const menuToggle = document.querySelector('.menu-toggle')
-    menuToggle.onclick = function(e) {
+    menuToggle.onclick = function (e) {
     const body = document.querySelector('body')
     body.classList.toggle('hide-sidebar')
 }
 })()
-
-
 
 function activateClock() {
     const activeClock = document.querySelector('[active-clock]')
@@ -26,11 +23,11 @@ function activateClock() {
         return `${h}:${m}:${s}`
     }
         
-    setInterval(function(){
+    setInterval(function() {
+        // '07:27:19' => ['07', '27', '19']
         const parts = activeClock.innerHTML.split(':')
         activeClock.innerHTML = addOneSecond(...parts)
     }, 1000)
-    
 }
 
 activateClock()
